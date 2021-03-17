@@ -1,5 +1,6 @@
 input.onButtonPressed(Button.A, function () {
     if (a.includes("menu")) {
+        a = ""
         // Type code in the next line
         basic.clearScreen()
     }
@@ -9,9 +10,11 @@ input.onButtonPressed(Button.AB, function () {
         basic.pause(500)
         Menu(false, false)
     }
+    ab = ""
 })
 input.onButtonPressed(Button.B, function () {
     if (b.includes("menu")) {
+        b = ""
         // Type code in the next line
         basic.clearScreen()
     }
