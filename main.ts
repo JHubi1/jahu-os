@@ -41,6 +41,7 @@ function Menu (A: boolean, B: boolean) {
 let b = ""
 let a = ""
 let ab = ""
+basic.pause(100)
 ab = ""
 basic.showLeds(`
     . # . . .
